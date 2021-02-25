@@ -1,52 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Manuel's Anthology</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
+<html lang="en-us">
 
-    <body>
-        <Header role="banner">
+<head>
+    <meta charset="UTF-8" />
+    <title>Manuel's Anthology</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+        <Header class="header">
             <h1>
-                <a href="/" id="logo">Manuel Duron ❤️</a>
+                <a class="maintext">Manuel M Duron With L.O.V.E.❤️</a>
             </h1>
-             
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#portfolio-content">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#recent-work">Recent work</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#about">About 📖</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#recent-work">Recent work 🛠</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contact">Contact 📱</a>
+                    </li>
+                </ul>
+            </nav>
         </Header>
+        <br><br><br><br><br>
 
-        <div class="hero"></div>
+        <div class="hero"> 
+            <img src="./assets/Images/Manuel Duron Logo.png" alt="logo of manuel duron" class="hero-img"/>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
 
         <section class="bio">
-            <article id="about" class="info"
-            <img src="./assets/Images/manuel doughnuts.img.jpg" class="float-left" alt="manuel with doughnuts in black and white" />
-            <h2>From the Begining till now</h2>
-            <p>
-                I like to think of myself as a person that has been raised in the wester hemisphere.
-                I tell myself i am special because i have a very different perspective then most. Born in Mexico
-                lived in Compton California, and raised in the bible belt AKA. Chattanooga Tn. They say i am well rounded like a
-                doughnut.
-                this upbringing has lead me to look at everything i do differently. I like to step out of my boundaries.
-                I am brand new at web developing so that means my mind has yet to be corrupted. I am the right person to be molded
-                into anything that is needed. what i lack in experience i make up for in potential and hard work ethic.
-            </p>
-        </section>
 
-    </body>
+            <article id="about" class="info">
+                <img src="./assets/Images/manuel doughnuts.img.jpg" class="float-left" alt="manuel with doughnuts in black and white" />
+                <h2>GET TO KNOW ME</h2>
+                <p>
+                    I like to think of myself as a person that has been raised in the wester hemisphere.
+                    I tell myself I am special because I have a very different perspective then most. Born in Mexico
+                    lived in Compton California, and raised in the bible belt AKA. Chattanooga Tn. They say I am well rounded like a
+                    doughnut.
+                    this upbringing has lead me to look at everything I do differently. I like to step out of my boundaries.
+                    I am brand new at web developing so that means my mind has yet to be corrupted. I am the right person to be molded
+                    into anything that is needed. What I lack in experience I make up for in potential and hard work ethic.
+                </p>
+            </article>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <article id="recent-work" class="info">
+                <img src="./assets/Images/work.jpg" class="float-right"
+                    alt="working hands on laptop" />
+                    <h2>GET TO KNOW MY WORK</h2>
+                
+                <p>
+                    Here you can enjoy my most recent work. please note that this work was provided by my textbook. 
+                </p>
+                <p>
+                    Horiseon: <a href="https://manniemd.github.io/Horiseon/" target="_blank">
+                        <img border="0" alt="horiseon git website" src="./assets/Images/Horiseon.png" width="100" height="100">
+                    </a>
+                </p>
+                <p>
+                    Run-buddy: <a href="https://manniemd.github.io/run-buddy/" target="_blank">
+                        <img border="0" alt="run buddy git website" src="./assets/Images/run buddy.jpg" width="100" height="100">
+                    </a>
+                </p>
+            </article>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </section>
+        <!--"reach out" section-->
+        <section id="contact" class="info">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+              
+                <div>
+                       
+                    <p>
+                        <h4>Thinking about hiring me?</h4>
+                        <br>
+                        <h4>Let me know and I'll be happy to talk to you!</h4>
+                    </p>
+                    <address>
+                        <h4>
+                            22 Broad Street <br />
+                            Some Town, TN. <br />
+                            12345<br />
+                            P: 555.man.duron (555.786.2839)<br />
+                            E: <a href="mailto:manniemd@gmail.com">Manniemd@gmail.com</a>
+
+                        </h4>
+                    </address>
+                </div>
+            </div>
+        <footer class="footer">
+            <h4>Made with ❤️️ by Manuel M Duron</h4>
+            <p>
+                Enjoy the collection of words I have left.
+            </p>
+            <p>
+                Thank you <a href="https://unsplash.com/@glenncarstenspeters" target="_blank">lenn carstens peters</a>
+                for the pictures.
+            </p>
+        </footer>
+
+</body>
 
 </html>
